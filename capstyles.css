@@ -1,0 +1,157 @@
+
+body {
+    background: rgb(11,10,10); background: linear-gradient(333deg, rgba(11,10,10,1) 21%, rgba(98,96,96,1) 95%);
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+/* TOP PART */
+.nav-bar { 
+    display: flex; 
+    justify-content: space-around; 
+    background-color: black; 
+    height: 125px; 
+    width: 100%; 
+}
+
+.nav-bar > .codepenlogo img { 
+    height: 123px; 
+    width: 250px; 
+    margin-top: auto; 
+    filter: invert(100%);
+}
+
+.nav-bar > .nav-links-wrapper { 
+    font-size: 1.25em; 
+    color: #ffdd40; 
+    margin-top: 2em;
+    margin-right: 8em;
+}
+
+.center-wrapper  {
+    display: flex;
+    color: white;
+}
+.center-wrapper a {
+    color: white;
+    font-size: 1em;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+}
+.right-column-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+}
+.right-column-wrapper button {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+.right-column-wrapper button i {
+    color: green;
+}
+
+.search-btn i {
+    font-size: 33px;
+}
+
+/* MIDDLE PART */
+.main-page-wrapper { 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    grid-gap: 500px; 
+    padding: 60px 0px 15px 60px; }
+
+.main-page-wrapper > .website-screenshot img { 
+    height: 550px; width: auto; 
+    background-repeat: none; 
+    box-shadow: -18px 7px 44px -3px rgba(0,0,0,0.68); 
+}
+
+.main-page-wrapper > .website-screenshot { 
+    color: white; 
+    font-size: 1.25em; 
+}
+
+.main-page-wrapper > .website-screenshot > .above-text { 
+    margin-bottom: -12px; margin-left: 8px; 
+}
+
+.main-page-wrapper > .website-screenshot > .above-text > .green-part { 
+    color: #00C2C7; 
+    font-weight: bold; 
+}
+
+#first-paragraph { 
+    color: white; ; 
+    font-size: 2.4rem; margin: 0px; 
+}
+
+#second-paragraph { 
+    color: #808080; ; font-size: 2.08rem; 
+}
+
+.main-page-wrapper > .paragraphs { 
+    width: 670px; padding-right: 200px; }
+
+.main-page-wrapper > .paragraphs > .middle-btns-wrapper { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 500px; 
+}
+
+.main-page-wrapper > .paragraphs > .middle-btns-wrapper > .sign-up-free { 
+    text-decoration: none; 
+    color: black; ; 
+    font-size: 2em; font-weight: bold; 
+    background-color: #42c580; padding: 17px 21px; 
+    border-radius: 2px; 
+}
+
+.main-page-wrapper > .paragraphs > .middle-btns-wrapper > .learn-more { 
+    text-decoration: none; 
+    color: white; ; 
+    font-size: 2em; 
+    font-weight: bold; 
+    background-color: black; 
+    padding: 17px 21px; border-radius: 2px; 
+}
+
+/* BOTTOM PART */
+.bottom-bar { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    text-align: center; 
+}
+
+.bottom-bar > .Teams { 
+    background-color: #403f3f; 
+    color: white; border: solid white 1px; 
+    padding: 13px 0px; font-size: 1.4em; 
+}
+
+.bottom-bar > .Education { 
+    background-color: #403f3f; 
+    color: white; border: solid white 1px; 
+    padding: 13px 0px; font-size: 1.4em;  
+}
+
+.bottom-bar > .Privacy { 
+    background-color: #403f3f; 
+    color: white; 
+    border: solid white 1px; 
+    padding: 13px 0px; font-size: 1.4em;  
+}
+
+.bottom-bar > .Writing { 
+    background-color: #403f3f; 
+    color: white; border: solid white 1px; 
+    padding: 13px 0px; font-size: 1.4em; 
+}
